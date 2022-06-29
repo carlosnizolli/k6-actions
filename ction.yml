@@ -1,0 +1,5 @@
+name: 'K6'
+description: 'Run K6 tests'
+runs:
+  using: 'docker'
+  image: docker://grafana/k6:latest
